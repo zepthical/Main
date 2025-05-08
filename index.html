@@ -1,11 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>How to Use the Script</title>
+  <meta charset="UTF-8">
+  <title>Lalala Script | How to Use</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background-color: #1e1e1e;
+      color: #f1f1f1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+    .container {
+      background-color: #2c2c2c;
+      padding: 40px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+      text-align: center;
+      max-width: 600px;
+    }
+
+    h1 {
+      color: #00ffae;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    code {
+      display: block;
+      background-color: #111;
+      padding: 12px;
+      border-radius: 6px;
+      font-size: 14px;
+      word-wrap: break-word;
+    }
+
+    a {
+      color: #00c7ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #00c7ff;
+      color: #1e1e1e;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .button:hover {
+      background-color: #00aacc;
+    }
+  </style>
 </head>
 <body>
-  <h1>How to Use</h1>
-  <p>Copy and paste this into your executor:</p>
-  <code>loadstring(game:HttpGet("https://raw.githubusercontent.com/zepthical/Main/main/script.lua"))()</code>
+  <div class="container">
+    <h1>Lalala Script</h1>
+    <p>Paste this into your executor:</p>
+    <code>loadstring(game:HttpGet("https://raw.githubusercontent.com/zepthical/Main/main/script.lua"))()</code>
+    <a class="button" href="https://raw.githubusercontent.com/zepthical/Main/main/script.lua" target="_blank">View Raw Script</a>
+  </div>
 </body>
 </html>
